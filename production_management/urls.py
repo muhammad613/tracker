@@ -17,5 +17,3 @@ urlpatterns = [
     path('records/', include('production_records.urls')),  # Include production_records.urls
     path('expenses/', include('production_records.expenses_urls')),  # Include expenses_urls
 ]
-
-
